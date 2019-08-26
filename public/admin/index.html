@@ -1,3 +1,7 @@
+<script src="/login/status"></script>
+<script>
+    if (!isLogin) location.href = 'index.html'
+</script>
 <!DOCTYPE html>
 <html lang="zh-CN">
 
@@ -92,7 +96,7 @@
         $('#loginout').on('click', function() {
             var miConfirm = confirm('要退出么');
             if (miConfirm == '确定') {
-                return 'hro'
+
             }
         });
     </script>
